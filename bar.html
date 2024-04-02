@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>da su ji</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="drop-down-menu ">
+              <li><a class="nav-link dropdown-toggle show" href=".\index.html" data-bs-toggle="dropdown" aria-expanded="true">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href=".\pie chart.html" data-bs-toggle="dropdown" aria-expanded="true">圓餅圖</a>
+                <ul class="dropdown-menu show" data-bs-popper="static">
+                  <li><a class="dropdown-item" href=".\pie chart.html">北部</a>
+                    <ul>
+                      <li><a href="./Keelung CityP.html">基隆市</a>
+                      </li>
+                      <li><a href="./TaipeiP.html">台北市</a>
+                      </li>
+                      <li><a href="./New Taipei CityP.html">新北市</a>
+                      </li>
+                      <li><a href="./Yunlin CountyP.html">宜蘭縣</a>
+                      </li>
+                      <li><a href="./Taoyuan CityP.html">桃園市</a>
+                      </li>
+                      <li><a href="./Hsinchu CityP.html.html">新竹市</a>
+                      </li>
+                      <li><a href="./Hsinchu CountyP.html">新竹縣</a>
+                      </li>
+                      <li><a href="./Miaoli CountyP.html">苗栗縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href=".\pie chart.html">中部</a>
+                    <ul>
+                      <li><a href="./Taichung CityP.html">台中市</a>
+                      </li>
+                      <li><a href="./Changhua CountyP.html">彰化縣</a>
+                      </li>
+                      <li><a href="./Nantou CountyP.html">南投縣</a>
+                      </li>
+                      <li><a href="./Yunlin CountyP.html">雲林縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href=".\pie chart.html">南部</a>
+                    <ul>
+                      <li><a href="./Chiayi CityP.html">嘉義市</a>
+                      </li>
+                      <li><a href="./Chiayi CountyP.html">嘉義縣</a>
+                      </li>
+                      <li><a href="./Tainan CityP.html">台南市</a>
+                      </li>
+                      <li><a href="./Kaohsiung CityP.html">高雄市</a>
+                      </li>
+                      <li><a href="./Pingtung CountyP.html">屏東縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href=".\pie chart.html">東部</a>
+                    <ul>
+                      <li><a href="./Hualien CountyP.html">花蓮縣</a>
+                      </li>
+                      <li><a href="./Taitung CountyP.html">台東縣</a>
+                      </li>
+                    </ul>
+                </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href=".\line.html" data-bs-toggle="dropdown" aria-expanded="true">折線圖</a>
+                <ul class="dropdown-menu show" data-bs-popper="static">
+                  <li><a class="dropdown-item" href="./line.html">北部</a>
+                      <ul>
+                        <li><a href="./Keelung CityL.html">基隆市</a>
+                        </li>
+                        <li><a href="./TaipeiL.html">台北市</a>
+                        </li>
+                        <li><a href="./New Taipei CityL.html">新北市</a>
+                        </li>
+                        <li><a href="./Yilan CountyL.html">宜蘭縣</a>
+                        </li>
+                        <li><a href="./Taoyuan CityL.html">桃園市</a>
+                        </li>
+                        <li><a href="./Hsinchu CityL.html">新竹市</a>
+                        </li>
+                        <li><a href="./Hsinchu CountyL.html">新竹縣</a>
+                        </li>
+                        <li><a href="./Miaoli CountyL.html">苗栗縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">中部</a>
+                      <ul>
+                        <li><a href="Taichung CityL.html">台中市</a>
+                        </li>
+                        <li><a href="./Changhua CountyL.html">彰化縣</a>
+                        </li>
+                        <li><a href="./Nantou CountyL.html">南投縣</a>
+                        </li>
+                        <li><a href="./Yunlin CountyL.html">雲林縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">南部</a>
+                      <ul>
+                        <li><a href="./Chiayi CityL.html">嘉義市</a>
+                        </li>
+                        <li><a href="./Chiayi CountyL.html">嘉義縣</a>
+                        </li>
+                        <li><a href="./Tainan CityL.html">台南市</a>
+                        </li>
+                        <li><a href="./Kaohsiung CityL.html">高雄市</a>
+                        </li>
+                        <li><a href="./Pingtung CountyL.html">屏東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">東部</a>
+                      <ul>
+                        <li><a href="./Hualien CountyL.html">花蓮縣</a>
+                        </li>
+                        <li><a href="./Taitung CountyL.html">台東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show" href="./bar.html" data-bs-toggle="dropdown" aria-expanded="true">長條圖</a>
+                  <ul class="dropdown-menu show" data-bs-popper="static">
+                    <li><a class="dropdown-item" href="#">北部</a>
+                      <ul>
+                        <li><a href="#">基隆市</a>
+                        </li>
+                        <li><a href="./TaipeiB.html">台北市</a>
+                        </li>
+                        <li><a href="./New Taipei CityB.html">新北市</a>
+                        </li>
+                        <li><a href="./Yilan CountyB.html">宜蘭縣</a>
+                        </li>
+                        <li><a href="./Taoyuan CityB.html">桃園市</a>
+                        </li>
+                        <li><a href="./Hsinchu CityB.html">新竹市</a>
+                        </li>
+                        <li><a href="./Hsinchu CountyB.html">新竹縣</a>
+                        </li>
+                        <li><a href="./Miaoli CountyB.html">苗栗縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">中部</a>
+                      <ul>
+                        <li><a href="./Taichung CityB.html">台中市</a>
+                        </li>
+                        <li><a href="./Changhua CountyB.html">彰化縣</a>
+                        </li>
+                        <li><a href="./Nantou CountyB.html">南投縣</a>
+                        </li>
+                        <li><a href="./Yunlin CountyB.html">雲林縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">南部</a>
+                      <ul>
+                        <li><a href="./Chiayi CityB.html">嘉義市</a>
+                        </li>
+                        <li><a href="./Chiayi CountyB.html">嘉義縣</a>
+                        </li>
+                        <li><a href="./Tainan CityB.html">台南市</a>
+                        </li>
+                        <li><a href="./Kaohsiung CityB.html">高雄市</a>
+                        </li>
+                        <li><a href="./Pingtung CountyB.html">屏東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">東部</a>
+                      <ul>
+                        <li><a href="./Hualien CountyB.html">花蓮縣</a>
+                        </li>
+                        <li><a href="./Taitung CountyB.html">台東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  </ul>
+              </li>
+              <li><a class="nav-link dropdown-toggle show" href=".\about.html" data-bs-toggle="dropdown" aria-expanded="true">About</a></li>
+            </ul>    
+          </div>
+        </div>
+    </header>
+    <main>
+      <br></br><br></br><br></br>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5> </h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <h5>北部</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="./Keelung CityB.html" class="nav-link p-0 text-body-secondary">基隆市</a></li>
+                <li class="nav-item mb-2"><a href="./TaipeiB.html" class="nav-link p-0 text-body-secondary">台北市</a></li>
+                <li class="nav-item mb-2"><a href="./New Taipei CityB.html" class="nav-link p-0 text-body-secondary">新北市</a></li>
+                <li class="nav-item mb-2"><a href="./Yilan CountyB.html" class="nav-link p-0 text-body-secondary">宜蘭縣</a></li>
+                <li class="nav-item mb-2"><a href="./Taoyuan CityB.html" class="nav-link p-0 text-body-secondary">桃園市</a></li>
+                <li class="nav-item mb-2"><a href="./Hsinchu CountyB.html" class="nav-link p-0 text-body-secondary">新竹市</a></li>
+                <li class="nav-item mb-2"><a href="./Hsinchu CountyB.html" class="nav-link p-0 text-body-secondary">新竹縣</a></li>
+                <li class="nav-item mb-2"><a href="./Miaoli CountyB.html" class="nav-link p-0 text-body-secondary">苗栗縣</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>中部</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="./Taichung CityB.html" class="nav-link p-0 text-body-secondary">台中市</a></li>
+                <li class="nav-item mb-2"><a href="./Changhua CountyB.html" class="nav-link p-0 text-body-secondary">彰化縣</a></li>
+                <li class="nav-item mb-2"><a href="./Nantou CountyB.html" class="nav-link p-0 text-body-secondary">南投縣</a></li>
+                <li class="nav-item mb-2"><a href="./Yunlin CountyB.html" class="nav-link p-0 text-body-secondary">雲林縣</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>南部</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="./Chiayi CityB.html" class="nav-link p-0 text-body-secondary">嘉義市</a></li>
+                <li class="nav-item mb-2"><a href="./Chiayi CountyB.html" class="nav-link p-0 text-body-secondary">嘉義縣</a></li>
+                <li class="nav-item mb-2"><a href="./Tainan CityB.html" class="nav-link p-0 text-body-secondary">台南市</a></li>
+                <li class="nav-item mb-2"><a href="./Kaohsiung CityB.html" class="nav-link p-0 text-body-secondary">高雄市</a></li>
+                <li class="nav-item mb-2"><a href="./Pingtung CountyB.html" class="nav-link p-0 text-body-secondary">屏東縣</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>東部</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="./Hualien CountyB.html" class="nav-link p-0 text-body-secondary">花蓮縣</a></li>
+                <li class="nav-item mb-2"><a href="./Taitung CountyB.html" class="nav-link p-0 text-body-secondary">台東縣</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    <footer class="py-5">
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    </body>
+</html>
+ 

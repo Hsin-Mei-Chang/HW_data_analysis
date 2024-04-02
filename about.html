@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>da su ji</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="drop-down-menu ">
+              <li><a class="nav-link dropdown-toggle show" href=".\index.html" data-bs-toggle="dropdown" aria-expanded="true">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href=".\pie chart.html" data-bs-toggle="dropdown" aria-expanded="true">圓餅圖</a>
+                <ul class="dropdown-menu show" data-bs-popper="static">
+                  <li><a class="dropdown-item" href=".\pie chart.html">北部</a>
+                    <ul>
+                      <li><a href="./Keelung CityP.html">基隆市</a>
+                      </li>
+                      <li><a href="./TaipeiP.html">台北市</a>
+                      </li>
+                      <li><a href="./New Taipei CityP.html">新北市</a>
+                      </li>
+                      <li><a href="./Yunlin CountyP.html">宜蘭縣</a>
+                      </li>
+                      <li><a href="./Taoyuan CityP.html">桃園市</a>
+                      </li>
+                      <li><a href="./Hsinchu CityP.html.html">新竹市</a>
+                      </li>
+                      <li><a href="./Hsinchu CountyP.html">新竹縣</a>
+                      </li>
+                      <li><a href="./Miaoli CountyP.html">苗栗縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href=".\pie chart.html">中部</a>
+                    <ul>
+                      <li><a href="./Taichung CityP.html">台中市</a>
+                      </li>
+                      <li><a href="./Changhua CountyP.html">彰化縣</a>
+                      </li>
+                      <li><a href="./Nantou CountyP.html">南投縣</a>
+                      </li>
+                      <li><a href="./Yunlin CountyP.html">雲林縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href=".\pie chart.html">南部</a>
+                    <ul>
+                      <li><a href="./Chiayi CityP.html">嘉義市</a>
+                      </li>
+                      <li><a href="./Chiayi CountyP.html">嘉義縣</a>
+                      </li>
+                      <li><a href="./Tainan CityP.html">台南市</a>
+                      </li>
+                      <li><a href="./Kaohsiung CityP.html">高雄市</a>
+                      </li>
+                      <li><a href="./Pingtung CountyP.html">屏東縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href=".\pie chart.html">東部</a>
+                    <ul>
+                      <li><a href="./Hualien CountyP.html">花蓮縣</a>
+                      </li>
+                      <li><a href="./Taitung CountyP.html">台東縣</a>
+                      </li>
+                    </ul>
+                </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href=".\line.html" data-bs-toggle="dropdown" aria-expanded="true">折線圖</a>
+                <ul class="dropdown-menu show" data-bs-popper="static">
+                  <li><a class="dropdown-item" href="./line.html">北部</a>
+                      <ul>
+                        <li><a href="./Keelung CityL.html">基隆市</a>
+                        </li>
+                        <li><a href="./TaipeiL.html">台北市</a>
+                        </li>
+                        <li><a href="./New Taipei CityL.html">新北市</a>
+                        </li>
+                        <li><a href="./Yilan CountyL.html">宜蘭縣</a>
+                        </li>
+                        <li><a href="./Taoyuan CityL.html">桃園市</a>
+                        </li>
+                        <li><a href="./Hsinchu CityL.html">新竹市</a>
+                        </li>
+                        <li><a href="./Hsinchu CountyL.html">新竹縣</a>
+                        </li>
+                        <li><a href="./Miaoli CountyL.html">苗栗縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">中部</a>
+                      <ul>
+                        <li><a href="Taichung CityL.html">台中市</a>
+                        </li>
+                        <li><a href="./Changhua CountyL.html">彰化縣</a>
+                        </li>
+                        <li><a href="./Nantou CountyL.html">南投縣</a>
+                        </li>
+                        <li><a href="./Yunlin CountyL.html">雲林縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">南部</a>
+                      <ul>
+                        <li><a href="./Chiayi CityL.html">嘉義市</a>
+                        </li>
+                        <li><a href="./Chiayi CountyL.html">嘉義縣</a>
+                        </li>
+                        <li><a href="./Tainan CityL.html">台南市</a>
+                        </li>
+                        <li><a href="./Kaohsiung CityL.html">高雄市</a>
+                        </li>
+                        <li><a href="./Pingtung CountyL.html">屏東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">東部</a>
+                      <ul>
+                        <li><a href="./Hualien CountyL.html">花蓮縣</a>
+                        </li>
+                        <li><a href="./Taitung CountyL.html">台東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show" href="./bar.html" data-bs-toggle="dropdown" aria-expanded="true">長條圖</a>
+                  <ul class="dropdown-menu show" data-bs-popper="static">
+                    <li><a class="dropdown-item" href="#">北部</a>
+                      <ul>
+                        <li><a href="#">基隆市</a>
+                        </li>
+                        <li><a href="./TaipeiB.html">台北市</a>
+                        </li>
+                        <li><a href="./New Taipei CityB.html">新北市</a>
+                        </li>
+                        <li><a href="./Yilan CountyB.html">宜蘭縣</a>
+                        </li>
+                        <li><a href="./Taoyuan CityB.html">桃園市</a>
+                        </li>
+                        <li><a href="./Hsinchu CityB.html">新竹市</a>
+                        </li>
+                        <li><a href="./Hsinchu CountyB.html">新竹縣</a>
+                        </li>
+                        <li><a href="./Miaoli CountyB.html">苗栗縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">中部</a>
+                      <ul>
+                        <li><a href="./Taichung CityB.html">台中市</a>
+                        </li>
+                        <li><a href="./Changhua CountyB.html">彰化縣</a>
+                        </li>
+                        <li><a href="./Nantou CountyB.html">南投縣</a>
+                        </li>
+                        <li><a href="./Yunlin CountyB.html">雲林縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">南部</a>
+                      <ul>
+                        <li><a href="./Chiayi CityB.html">嘉義市</a>
+                        </li>
+                        <li><a href="./Chiayi CountyB.html">嘉義縣</a>
+                        </li>
+                        <li><a href="./Tainan CityB.html">台南市</a>
+                        </li>
+                        <li><a href="./Kaohsiung CityB.html">高雄市</a>
+                        </li>
+                        <li><a href="./Pingtung CountyB.html">屏東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="./line.html">東部</a>
+                      <ul>
+                        <li><a href="./Hualien CountyB.html">花蓮縣</a>
+                        </li>
+                        <li><a href="./Taitung CountyB.html">台東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  </ul>
+              </li>
+              <li><a class="nav-link dropdown-toggle show" href=".\about.html" data-bs-toggle="dropdown" aria-expanded="true">About</a></li>
+            </ul>    
+          </div>
+        </div>
+    </header>
+    <main class="container">
+      <!-- ./pictures/cl1.png -->
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"style="background-image: url('./pictures/54.png'); background-size: cover; padding: 20px; box-sizing: border-box; ">
+        <div class="col-lg-6 px-0">
+          <!-- display-4 fst-italic -->
+          <h1 class="d-inline-block mb-2 text-primary-emphasis" _msttexthash="46224672" _msthash="23" style="direction: ltr; text-align: left;">大數據分析</h1>
+          <p class="lead my-3" _msttexthash="317616364" _msthash="24" style="direction: ltr; text-align: left;">透過圓餅圖、折線圖、長條圖，讓我們能更快的了解台灣逐年各地區發生動機車事故、酒駕等情況。</p>
+          <p class="lead mb-0" style="direction: ltr; text-align: left;"><a href="https://stat.motc.gov.tw/mocdb/stmain.jsp?sys=100" class="text-body-emphasis fw-bold" _msttexthash="15463409" _msthash="25">資料來源</a></p>
+        </div>
+      </div>
+      <!-- <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div> -->
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis" _msttexthash="4942002" _msthash="26" style="direction: ltr; text-align: left;">整體頁面設計</strong>
+              <h3 class="mb-0" _msttexthash="12975872" _msthash="27" style="direction: ltr; text-align: left;">張心玫</h3>
+              <div class="mb-1 text-body-secondary" _msttexthash="3109067" _msthash="28" style="direction: ltr; text-align: left;">12月28</div>
+              <p class="card-text mb-auto" _msttexthash="258081707" _msthash="29" style="direction: ltr; text-align: left;">科系:體體工程與管理學系三<br>email:411031106@mail.nknu.edu.tw</br></p>
+              <div>
+                <a href="https://www.facebook.com/profile.php?id=100008115431517" ><img src=".\pictures\Facebook-Logo.jpg" width="15px" height="15px"><font _mstmutation="1" _msttexthash="15441881" _msthash="30" style="direction: ltr; text-align: left;"></font></a>
+                <a href="https://www.instagram.com/mei_710348/?hl=zh-tw"><img src=".\pictures\IG-Logo.png" height="20px" width="20px"></a>
+              </div>
+            </div>
+            <div class="col-auto d-none d-lg-block" style="direction: ltr; text-align: left;">
+              <img class="bd-placeholder-img" width="205" height="215" src="pictures\283489.jpg"  focusable="false" _mstaria-label="4468347" _mstHash="31" style="direction: ltr; text-align: left;"><rect width="100%" height="100%" fill="#55595c"></rect></img>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis" _msttexthash="6893887" _msthash="34" style="direction: ltr; text-align: left;">首頁頁面設計</strong>
+              <h3 class="mb-0" _msttexthash="6245941" _msthash="35" style="direction: ltr; text-align: left;">陳筠婷</h3>
+              <div class="mb-1 text-body-secondary" _msttexthash="3108924" _msthash="36" style="direction: ltr; text-align: left;">06月16</div>
+              <p class="mb-auto" _msttexthash="258081707" _msthash="37" style="direction: ltr; text-align: left;">科系:數學系應數組三<br>email:411031136@mail.nknu.edu.tw</br></p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link"><font _mstmutation="1" _msttexthash="15441881" _msthash="38" style="direction: ltr; text-align: left;">繼續閱讀</font><svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block" style="direction: ltr; text-align: left;">
+              <img class="bd-placeholder-img" width="205" height="215" src="pictures\LINE_ALBUM_貝貝拉拉的旅行_221023_22.jpg" focusable="false" _mstaria-label="4468347" _mstHash="39" style="direction: ltr; text-align: left;"><rect width="100%" height="100%" fill="#55595c"></rect></img>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </main>
+    <footer class="py-5">
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+    </body>
+</html>

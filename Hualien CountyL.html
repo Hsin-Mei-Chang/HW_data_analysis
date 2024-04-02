@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>da su ji</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="drop-down-menu ">
+              <li><a class="nav-link dropdown-toggle show" href=".\main.html" data-bs-toggle="dropdown" aria-expanded="true">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href=".\pie chart.html" data-bs-toggle="dropdown" aria-expanded="true">圓餅圖</a>
+                <ul class="dropdown-menu show" data-bs-popper="static">
+                  <li><a class="dropdown-item" href="#">北部</a>
+                    <ul>
+                      <li><a href="#">基隆市</a>
+                      </li>
+                      <li><a href="#">台北市</a>
+                      </li>
+                      <li><a href="#">新北市</a>
+                      </li>
+                      <li><a href="#">宜蘭縣</a>
+                      </li>
+                      <li><a href="#">桃園市</a>
+                      </li>
+                      <li><a href="#">新竹市</a>
+                      </li>
+                      <li><a href="#">新竹縣</a>
+                      </li>
+                      <li><a href="#">苗栗縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">中部</a>
+                    <ul>
+                      <li><a href="#">台中市</a>
+                      </li>
+                      <li><a href="#">彰化縣</a>
+                      </li>
+                      <li><a href="#">南投縣</a>
+                      </li>
+                      <li><a href="#">雲林縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">南部</a>
+                    <ul>
+                      <li><a href="#">嘉義市</a>
+                      </li>
+                      <li><a href="#">嘉義縣</a>
+                      </li>
+                      <li><a href="#">台南市</a>
+                      </li>
+                      <li><a href="#">高雄市</a>
+                      </li>
+                      <li><a href="#">屏東縣</a>
+                      </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">東部</a>
+                    <ul>
+                      <li><a href="#">花蓮縣</a>
+                      </li>
+                      <li><a href="#">台東縣</a>
+                      </li>
+                    </ul>
+                </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle show" href=".\line.html" data-bs-toggle="dropdown" aria-expanded="true">折線圖</a>
+                <ul class="dropdown-menu show" data-bs-popper="static">
+                  <li><a class="dropdown-item" href="#">北部</a>
+                      <ul>
+                        <li><a href="#">基隆市</a>
+                        </li>
+                        <li><a href="#">台北市</a>
+                        </li>
+                        <li><a href="#">新北市</a>
+                        </li>
+                        <li><a href="#">宜蘭縣</a>
+                        </li>
+                        <li><a href="#">桃園市</a>
+                        </li>
+                        <li><a href="#">新竹市</a>
+                        </li>
+                        <li><a href="#">新竹縣</a>
+                        </li>
+                        <li><a href="#">苗栗縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">中部</a>
+                      <ul>
+                        <li><a href="#">台中市</a>
+                        </li>
+                        <li><a href="#">彰化縣</a>
+                        </li>
+                        <li><a href="#">南投縣</a>
+                        </li>
+                        <li><a href="#">雲林縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">南部</a>
+                      <ul>
+                        <li><a href="#">嘉義市</a>
+                        </li>
+                        <li><a href="#">嘉義縣</a>
+                        </li>
+                        <li><a href="#">台南市</a>
+                        </li>
+                        <li><a href="#">高雄市</a>
+                        </li>
+                        <li><a href="#">屏東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">東部</a>
+                      <ul>
+                        <li><a href="#">花蓮縣</a>
+                        </li>
+                        <li><a href="#">台東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle show" href="./bar.html" data-bs-toggle="dropdown" aria-expanded="true">長條圖</a>
+                  <ul class="dropdown-menu show" data-bs-popper="static">
+                    <li><a class="dropdown-item" href="#">北部</a>
+                      <ul>
+                        <li><a href="#">基隆市</a>
+                        </li>
+                        <li><a href="#">台北市</a>
+                        </li>
+                        <li><a href="#">新北市</a>
+                        </li>
+                        <li><a href="#">宜蘭縣</a>
+                        </li>
+                        <li><a href="#">桃園市</a>
+                        </li>
+                        <li><a href="#">新竹市</a>
+                        </li>
+                        <li><a href="#">新竹縣</a>
+                        </li>
+                        <li><a href="#">苗栗縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">中部</a>
+                      <ul>
+                        <li><a href="#">台中市</a>
+                        </li>
+                        <li><a href="#">彰化縣</a>
+                        </li>
+                        <li><a href="#">南投縣</a>
+                        </li>
+                        <li><a href="#">雲林縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">南部</a>
+                      <ul>
+                        <li><a href="#">嘉義市</a>
+                        </li>
+                        <li><a href="#">嘉義縣</a>
+                        </li>
+                        <li><a href="#">台南市</a>
+                        </li>
+                        <li><a href="#">高雄市</a>
+                        </li>
+                        <li><a href="#">屏東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">東部</a>
+                      <ul>
+                        <li><a href="#">花蓮縣</a>
+                        </li>
+                        <li><a href="#">台東縣</a>
+                        </li>
+                      </ul>
+                  </li>
+                  </ul>
+              </li>
+              <li><a class="nav-link dropdown-toggle show" href=".\about.html" data-bs-toggle="dropdown" aria-expanded="true">About</a></li>
+            </ul>    
+          </div>
+        </div>
+    </header>
+         <!-- 创建一个 canvas 元素 -->
+         <canvas id="myLineChart" ></canvas>
+
+         <!-- JavaScript 代码 -->
+         <script>
+             // 获取 canvas 上下文
+             var ctx = document.getElementById('myLineChart').getContext('2d');
+       
+             // 配置图表数据
+             var data = {
+                 labels: ['108','109','110', '111', '112'],
+                 datasets: [{
+                     label: '受傷人數(十)',
+                     data: [26.8 ,27.3 ,29.3 ,22.7 ,22.6 ],
+                     borderColor: '#ffc8c8',  // 线条颜色
+                     fill: false  // 不要填充区域
+                 },
+                {
+                  label: '死亡人數',
+                  data: [7 ,6 ,11 ,11 ,6 ],
+                  borderColor: '#ff8c94',  // 线条颜色
+                  fill: false 
+                }]
+             };
+       
+             // 配置图表选项
+             var options = {
+              plugins: {
+                title: {
+                display: true,
+                text: '酒後駕車交通事故', // 圖表標題文字
+                position: 'bottom' // 圖表標題位置
+            }
+        }
+                 // 可以根据需要配置图表的各种选项
+             };
+       
+             // 创建折线图
+             var myLineChart = new Chart(ctx, {
+                 type: 'line',  // 指定图表类型，这里是折线图
+                 data: data,
+                 options: options
+             });
+         </script>
+
+    </body>
+</html>
